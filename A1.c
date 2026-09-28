@@ -1,6 +1,4 @@
 /*
- * extract_ipv4.c
- *
  * Reads lines of text and extracts a single valid IPv4 address, optionally
  * followed by :port, embedded anywhere in the line.
  *
@@ -15,6 +13,8 @@
  *   3. The first run that validates is the extracted address.
  *
  * No string-to-number, address-parsing, or regex library functions are used.
+ * 
+ * 100% of this code was written using Claude Opus 5.5
  */
 
 #include <stdio.h>
